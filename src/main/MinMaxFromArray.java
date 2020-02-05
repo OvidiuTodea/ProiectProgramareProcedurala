@@ -21,6 +21,22 @@ public class MinMaxFromArray {
 				max=givenArray[j];
 		}
 		System.out.println("Max from array is: "+ max);
+		System.out.println();
+		
+		// mai jos varianta in care stim ca array-ul are 10 elemente (asta inseamna i de la 0 la 9)
+		
+		for (int i=0; i<9; i++) {
+			if (givenArray[i]<min)
+				min=givenArray[i];
+		}
+		System.out.println("Min' form array is : "+ min);
+		
+		
+		for (int j=0; j<9; j++) {
+			if (givenArray[j]>max)
+				max=givenArray[j];
+		}
+		System.out.println("Max' from array is: "+ max);
 		
 		
 	}
